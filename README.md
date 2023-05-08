@@ -3,8 +3,13 @@
 This is a guide for consuming the Deepser API - a help desk software. More information can be found in the Deepser API Docs.
 
 ## Installation
-Download the [Deepser.dll](https://github.com/MatteoTrombin/api-csharp/blob/main/Deepser.dll) file in the repository and add it as a reference in your solution. 
-Remember to put the directives using Deepser
+To add the [Deepser dll file](https://github.com/MatteoTrombin/api-csharp/blob/main/Deepser.dll) to your solution, first download the file from the repository. Then, in your Visual Studio project, right-click on "References" in the Solution Explorer and select "Add Reference." From there, browse to the location where you saved the Deepser.dll file and add it as a reference.
+
+After adding the reference, make sure to include the relevant namespace in your code with the "using" directive:
+
+using Deepser;
+
+This will allow you to access the methods and classes defined in the Deepser.dll file within your code.
 
 ## Example
 
