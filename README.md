@@ -34,9 +34,9 @@ Authentication auth = new Authentication(host, token);
 ```c#
 Factory fact = new Factory();
 //create new instances of the various entities using the factory pattern
-var col = fact.CreateEntity("Company");
+var comp = fact.CreateEntity("Company");
 var op = fact.CreateEntity("Operation");
-var us = fact.CreateEntity("User");
+var user = fact.CreateEntity("User");
 ```
 
 ## Operation (Ticket)
@@ -68,13 +68,13 @@ op.getData("title");
 // delete by id 
 await op.Delete(5396);
 // delete by attribute
-await col.Delete("NewTicket", "title");
+await op.Delete("NewTicket", "title");
 ```
 
 ## User
 ```c#
 // load an existing user by id
-var result = await us.Load(48);
+var result = await user.Load(48);
 // get the data from the user I loaded
 result.getData("username"); 
 
@@ -99,7 +99,7 @@ foreach (var item in items)
 ## Company
 ```c#
 // load an existing operation by id
-await col.Load(2);
+await comp.Load(2);
 
 // set up collection for the company entity
 Collection collection = new Collection();
