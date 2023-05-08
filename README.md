@@ -114,6 +114,9 @@ collection.GetSingleData("phone");
 ## Credits
 [Matteo Trombin](https://github.com/MatteoTrombin)
 
+## Support
+Please open an issue in github
+
 ## Conclusion
 
 The Deepser API is a helpful tool for building and managing help desk software. By following the above examples, you can consume the Deepser API and build your own customized applications.
