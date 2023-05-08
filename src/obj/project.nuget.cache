@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "toqNyWFKtbzkX3F31OFLUrXV9GyB1oyqyenc1lubkdXQAj63884A8NTM8tCmRnG/xOXuHcof+fugLaH393HVbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trombinm\\Desktop\\Deepser Stage\\Deepser\\Deepser\\Deepser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trombinm\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\trombinm\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\trombinm\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\trombinm\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\trombinm\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
