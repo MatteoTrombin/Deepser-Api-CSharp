@@ -34,7 +34,7 @@ var us = fact.CreateEntity("User");
 # Operation (Ticket)
 ```c#
 // load an existing operation by id
-var result = await op.Load(5413);
+await op.Load(5413);
 
 // get the data from the operation I loaded
 result.getData("description");
@@ -71,7 +71,7 @@ var result = await us.Load(48);
 result.getData("username"); 
 
 // load user collection
-// set up collection for the operation entity
+// set up collection for the user entity
 Collection collection = new Collection();
 collection.SetMainModel(typeof(User));
 
@@ -88,4 +88,24 @@ foreach (var item in items)
 }
 ```
 # Company
+```c#
+// load an existing operation by id
+await col.Load(2);
 
+// set up collection for the company entity
+Collection collection = new Collection();
+collection.SetMainModel(typeof(Company));
+
+// add filter
+var filter = collection.GetFilter();
+filter.addFilter("name", Like, "ACME%");
+
+// add parameter
+var parameter = collection.GetParameter();
+parameter.SetOrder("entity_id", Parameter.Ascending);
+
+// load a collection of single data
+await collection.LoadMultiple();
+var _items = collection.GetCollection();
+collection.GetSingleData("phone");
+```
