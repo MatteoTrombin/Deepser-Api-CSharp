@@ -1,13 +1,12 @@
-# Deepser Api
-Let's consume the Deepser API 
+# Deepser API
 
-Deepser is a help desk software and you can find more information in Deepser API Docs
+This is a guide for consuming the Deepser API - a help desk software. More information can be found in the Deepser API Docs.
 
-# Installation
+## Installation
 
-# Example
-Login with Basic Authentication
+## Example
 
+### Login with Basic Authentication
 ```c#
 string host = "https://your.deepser.net";
 string username = "username";
@@ -15,23 +14,24 @@ string password = "password";
 Authentication auth = new Authentication(host, username, password);
 ```
 
-Login with Token Based Authentication
+### Login with Token Based Authentication
+
 ```c#
 string host = "https://your.deepser.net";
 string token = "mytokenhere";
-// create a deep desk object
 Authentication auth = new Authentication(host, token);
 ```
 
-# Factory
+## Factory
 ```c#
-//create new instances of the various entities using the factory pattern
 Factory fact = new Factory();
+//create new instances of the various entities using the factory pattern
 var col = fact.CreateEntity("Company");
 var op = fact.CreateEntity("Operation");
 var us = fact.CreateEntity("User");
 ```
-# Operation (Ticket)
+
+## Operation (Ticket)
 ```c#
 // load an existing operation by id
 await op.Load(5413);
@@ -41,12 +41,12 @@ result.getData("description");
 
 // create new operation object
 op.setData("type_id", 1)
-    .setData("title", "iPhone 13")
-    .setData("category1", 17)
-    .setData("description", "Description")
-    .setData("priority_id", 1)
-    .setData("urgency_id", 1)
-    .setData("status", 1);
+  .setData("title", "iPhone 13")
+  .setData("category1", 17)
+  .setData("description", "Description")
+  .setData("priority_id", 1)
+  .setData("urgency_id", 1)
+  .setData("status", 1);
 var result = await op.Create();
 // get the data from the operation I created
 op.getData("entity_id");
@@ -63,7 +63,7 @@ await op.Delete(5396);
 await col.Delete("NewTicket", "title");
 ```
 
-# User
+## User
 ```c#
 // load an existing user by id
 var result = await us.Load(48);
@@ -87,7 +87,8 @@ foreach (var item in items)
     $"{item.Key} : {item.Value}";
 }
 ```
-# Company
+
+## Company
 ```c#
 // load an existing operation by id
 await col.Load(2);
@@ -106,6 +107,10 @@ parameter.SetOrder("entity_id", Parameter.Ascending);
 
 // load a collection of single data
 await collection.LoadMultiple();
-var _items = collection.GetCollection();
+var items = collection.GetCollection();
 collection.GetSingleData("phone");
 ```
+
+## Conclusion
+
+The Deepser API is a helpful tool for building and managing help desk software. By following the above examples, you can consume the Deepser API and build your own customized applications.
