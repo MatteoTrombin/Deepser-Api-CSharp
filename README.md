@@ -113,6 +113,8 @@ foreach (var item in items)
 // load an existing operation by id
 await comp.Load(2);
 
+// load company collection
+
 // set up collection for the company entity
 Collection collection = new Collection();
 collection.SetMainModel(typeof(Company));
