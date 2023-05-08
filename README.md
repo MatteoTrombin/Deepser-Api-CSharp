@@ -3,6 +3,8 @@
 This is a guide for consuming the Deepser API - a help desk software. More information can be found in the Deepser API Docs.
 
 ## Installation
+Download the Deepser.dll file in the repository and add it as a reference in your solution. 
+Remember to put the directives using Deepser
 
 ## Example
 
