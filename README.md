@@ -49,7 +49,7 @@ var user = fact.CreateEntity("User");
 ## Operation (Ticket)
 ```c#
 // load an existing operation by id
-await op.Load(5413);
+var result = await op.Load(5413);
 
 // get the data from the operation I loaded
 result.getData("description");
@@ -130,7 +130,6 @@ parameter.SetOrder("entity_id", Parameter.Ascending);
 // load a collection of single data
 await collection.LoadMultiple();
 var items = collection.GetCollection();
-collection.GetSingleData("phone");
 ```
 
 ## Credits
