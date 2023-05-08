@@ -2,15 +2,21 @@
 This is a guide for consuming the Deepser API - a help desk software. More information can be found in the Deepser API Docs.
 
 ## Installation
-To add the **[Deepser.dll](https://github.com/MatteoTrombin/api-csharp/blob/main/Deepser.dll)** file to your solution, first download the file from the repository. Then, in your Visual Studio project, right-click on "References" in the Solution Explorer and select "Add Reference." From there, browse to the location where you saved the Deepser.dll file and add it as a reference.
+To use Deepser.dll within your project, follow these steps:
 
-After adding the reference, make sure to include the relevant namespace in your code with the "using" directive:
-```c#
-using Deepser;
-```
-In addition, it is important to note that using Deepser.dll in your solution requires the **[Newtonsoft.Json](https://www.newtonsoft.com/json)** NuGet package. To install the package, go to the "Manage NuGet Packages" option in the project menu and search for "Newtonsoft.Json". Install the package and make sure it is added to your project references along with Deepser.dll.
+1. Download the **[Deepser.dll](https://github.com/MatteoTrombin/api-csharp/blob/main/Deepser.dll)** file from the repository.
 
-This will allow you to access the methods and classes defined in the Deepser.dll file within your code.
+2. In Visual Studio, right-click on the "References" menu in the Solution Explorer and select "Add Reference".
+
+3. In the dialog box, locate the downloaded Deepser.dll file and add it as a reference.
+
+4. Add the Deepser namespace to your code using the "using" directive.
+
+5. Install the **[Newtonsoft.Json](https://www.newtonsoft.com/json)** NuGet package in your project. To do this, go to the "Manage NuGet Packages" menu, search for "Newtonsoft.Json," and install the package.
+
+6. Make sure the package has been added to your project's references along with Deepser.dll.
+
+Once these steps are complete, you will be able to access the methods and classes defined in Deepser.dll in your code.
 
 ## Example
 
@@ -33,6 +39,7 @@ Authentication auth = new Authentication(host, token);
 ## Factory
 ```c#
 Factory fact = new Factory();
+
 //create new instances of the various entities using the factory pattern
 var comp = fact.CreateEntity("Company");
 var op = fact.CreateEntity("Operation");
@@ -56,17 +63,20 @@ op.setData("type_id", 1)
   .setData("urgency_id", 1)
   .setData("status", 1);
 var result = await op.Create();
+
 // get the data from the operation I created
 op.getData("entity_id");
 
 // update an operation
 op.setData("title", "NewTitle");
 op.Update("OldTitle", "title");
+
 // get the data from the operation I updated
 op.getData("title");
 
 // delete by id 
 await op.Delete(5396);
+
 // delete by attribute
 await op.Delete("NewTicket", "title");
 ```
@@ -75,10 +85,12 @@ await op.Delete("NewTicket", "title");
 ```c#
 // load an existing user by id
 var result = await user.Load(48);
+
 // get the data from the user I loaded
 result.getData("username"); 
 
 // load user collection
+
 // set up collection for the user entity
 Collection collection = new Collection();
 collection.SetMainModel(typeof(User));
