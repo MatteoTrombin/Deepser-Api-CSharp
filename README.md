@@ -127,9 +127,13 @@ filter.addFilter("name", Like, "ACME%");
 var parameter = collection.GetParameter();
 parameter.SetOrder("entity_id", Parameter.Ascending);
 
-// load a collection of single data
+// load collection
 await collection.LoadMultiple();
 var items = collection.GetCollection();
+foreach (var item in items)
+{
+    $"{item.Key} : {item.Value}";
+}
 ```
 
 ## Credits
