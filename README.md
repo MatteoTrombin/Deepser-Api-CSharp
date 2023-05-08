@@ -9,7 +9,7 @@ After adding the reference, make sure to include the relevant namespace in your 
 ```c#
 using Deepser;
 ```
-In addition, it is important to note that using Deepser.dll in your solution requires the **Newtonsoft.Json** NuGet package. To install the package, go to the "Manage NuGet Packages" option in the project menu and search for "Newtonsoft.Json". Install the package and make sure it is added to your project references along with Deepser.dll.
+In addition, it is important to note that using Deepser.dll in your solution requires the **[Newtonsoft.Json](https://www.newtonsoft.com/json)** NuGet package. To install the package, go to the "Manage NuGet Packages" option in the project menu and search for "Newtonsoft.Json". Install the package and make sure it is added to your project references along with Deepser.dll.
 
 This will allow you to access the methods and classes defined in the Deepser.dll file within your code.
 
