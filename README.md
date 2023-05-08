@@ -2,7 +2,7 @@
 This is a guide for consuming the Deepser API - a help desk software. More information can be found in the Deepser API Docs.
 
 ## Installation
-To use Deepser.dll within your project, follow these steps:
+This is a quick guide to using the Deepser library within your project, follow these steps:
 
 1. Download the **[Deepser.dll](https://github.com/MatteoTrombin/api-csharp/blob/main/Deepser.dll)** file from the repository.
 
