@@ -112,7 +112,7 @@ collection.GetSingleData("phone");
 ```
 
 ## Credits
-[Matteo Trombin](https://github.com/MatteoTrombin)
+* [Matteo Trombin](https://github.com/MatteoTrombin)
 
 ## Support
 [Please open an issue in github](https://github.com/MatteoTrombin/Deepser-Api-CSharp/issues)
