@@ -1,5 +1,4 @@
 # Deepser API
-
 This is a guide for consuming the Deepser API - a help desk software. More information can be found in the Deepser API Docs.
 
 ## Installation
