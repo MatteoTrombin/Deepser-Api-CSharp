@@ -1,0 +1,72 @@
+C:\Users\trombinm\Pictures\Deepser\Deepser\bin\Debug\net6.0\Deepser.deps.json
+C:\Users\trombinm\Pictures\Deepser\Deepser\bin\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Pictures\Deepser\Deepser\bin\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.AssemblyReference.cache
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\Deepser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfoInputs.cache
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfo.cs
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.CoreCompileInputs.cache
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\refint\Deepser.dll
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Pictures\Deepser\Deepser\obj\Debug\net6.0\ref\Deepser.dll
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\bin\Debug\net6.0\Deepser.deps.json
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\bin\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\bin\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.AssemblyReference.cache
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfoInputs.cache
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfo.cs
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.CoreCompileInputs.cache
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\refint\Deepser.dll
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\Stage\Deepser\Deepser\obj\Debug\net6.0\ref\Deepser.dll
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\bin\Debug\net6.0\Deepser.deps.json
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\bin\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\bin\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.AssemblyReference.cache
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\Deepser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfoInputs.cache
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfo.cs
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.CoreCompileInputs.cache
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\refint\Deepser.dll
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\Backup\Deepser\Deepser\obj\Debug\net6.0\ref\Deepser.dll
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\bin\Debug\net6.0\Deepser.deps.json
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\bin\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\bin\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.AssemblyReference.cache
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfoInputs.cache
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfo.cs
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.CoreCompileInputs.cache
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\refint\Deepser.dll
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\Deepser Stage\Deepser\Deepser\obj\Debug\net6.0\ref\Deepser.dll
+C:\Users\borierod\Downloads\Deepser\Deepser\bin\Debug\net6.0\Deepser.deps.json
+C:\Users\borierod\Downloads\Deepser\Deepser\bin\Debug\net6.0\Deepser.dll
+C:\Users\borierod\Downloads\Deepser\Deepser\bin\Debug\net6.0\Deepser.pdb
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.AssemblyReference.cache
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\Deepser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfoInputs.cache
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfo.cs
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.CoreCompileInputs.cache
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\Deepser.dll
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\refint\Deepser.dll
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\Deepser.pdb
+C:\Users\borierod\Downloads\Deepser\Deepser\obj\Debug\net6.0\ref\Deepser.dll
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\bin\Debug\net6.0\Deepser.deps.json
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\bin\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\bin\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.AssemblyReference.cache
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\Deepser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfoInputs.cache
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\Deepser.AssemblyInfo.cs
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\Deepser.csproj.CoreCompileInputs.cache
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\Deepser.dll
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\refint\Deepser.dll
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\Deepser.pdb
+C:\Users\trombinm\Desktop\StageDeepser\Deepser\Deepser\obj\Debug\net6.0\ref\Deepser.dll
