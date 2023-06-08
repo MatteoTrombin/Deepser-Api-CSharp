@@ -1,5 +1,4 @@
-﻿using Deepser.Entity;
-using Deepser.Entity.Service;
+﻿using Deepser.Entity.Service;
 using Deepser.Framework;
 using Deepser.Framework.Request;
 using Deepser.Framework.Data;
@@ -12,6 +11,7 @@ using System.Reflection.Metadata;
 using Newtonsoft.Json.Linq;
 using System.Security.Cryptography;
 using System.Net.Http.Headers;
+using System.Collections.ObjectModel;
 
 namespace Deepser
 {
@@ -28,6 +28,8 @@ namespace Deepser
         internal HttpClient client = new HttpClient();
         internal object? id;
         internal AbstractEntity entity = null;
+        internal Collection<Activity> activities = null;
+
 
         public AbstractEntity()
         {
@@ -175,7 +177,7 @@ namespace Deepser
         {
             this.id = _id;
             this.field = _field;
-            string url = $"{GetEndpoint()}{Entity.Activity.MULTIPLE_ENDPOINT}";
+            string url = $"{GetEndpoint()}{Entity.Activity.Activity.MULTIPLE_ENDPOINT}";
             var content = new StringContent(toJson(), Encoding.UTF8, "application/json");
             var response = await client.PostAsync(url, content);
             var responseContent = await response.Content.ReadAsStringAsync();

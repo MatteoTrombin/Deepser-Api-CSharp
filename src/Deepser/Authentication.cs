@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,11 +40,22 @@ namespace Deepser
         // Returns the host, prefixed with https:// if it isn't already.
         public string GetHost()
         {
-            if (Host.Contains(".deepser.net") || Host.Contains("https://"))
+
+            string httpsUrl = $"https://{Host}.deepser.net";
+            string httpUrl = $"http://{Host}.deepser.net";
+            try
             {
-                return Host;
+                HttpWebRequest request = (HttpWebRequest)WebRequest.Create(httpsUrl);
+                request.Method = "HEAD";
+                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+                {
+                    return httpsUrl;
+                }
             }
-            return $"https://{Host}.deepser.net";
+            catch
+            {
+                return httpUrl;
+            }
         }
 
         // Returns true if authentication information is set (either username/password or token).
